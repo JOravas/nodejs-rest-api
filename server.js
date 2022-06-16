@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const restRouter = require('./routers/rest-api');
 const statusCodes = require('http-status-codes').StatusCodes;
-const APIVersion = 1;
 const PORT = process.env.PORT || 3000;
 
 // Remove the following HTTP Response Header:
